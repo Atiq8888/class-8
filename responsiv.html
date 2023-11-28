@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiv</title>
+
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+
+        .item {
+            width: 300px;
+            margin-left: 10px;
+            position: relative;
+        }
+
+        .image img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .contain {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: aliceblue;
+            padding: 10px;
+            background-color: rgb(11, 11, 99, .5);
+            height: 330px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            visibility: hidden;
+            cursor: pointer;
+            text-align: center;
+
+        }
+
+        .item:hover .contain {
+            visibility: visible;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <section>
+        <div class="photo-album">
+            <div class="item">
+                <div class="image">
+                    <img src="image/1.jpg" alt="">
+                </div>
+                <div class="contain">
+                    <h1>Name</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi illum a accusantium id rem.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa iusto, animi corrupti sed a
+                        vel
+                        labore eos voluptatum, debitis, aspernatur voluptate repellendus maxime vero doloribus deserunt
+                        tenetur? Enim, dolores?15
+
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="item">
+                <div class="image">
+                    <img src="image/2.jpg" alt="">
+                </div>
+                <div class="contain">
+                    <h1>Name</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi illum a accusantium id rem.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa iusto, animi corrupti sed a
+                        vel
+                        labore eos voluptatum, debitis, aspernatur voluptate repellendus maxime vero doloribus deserunt
+                        tenetur? Enim, dolores?15
+
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="item">
+                <div class="image">
+                    <img src="image/3.jpg" alt="">
+                </div>
+                <div class="contain">
+                    <h1>Name</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi illum a accusantium id rem.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa iusto, animi corrupti sed a
+                        vel
+                        labore eos voluptatum, debitis, aspernatur voluptate repellendus maxime vero doloribus deserunt
+                        tenetur? Enim, dolores?15
+
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="item">
+                <div class="image">
+                    <img src="image/4.jpg" alt="">
+                </div>
+                <div class="contain">
+                    <h1>Name</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi illum a accusantium id rem.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa iusto, animi corrupti sed a
+                        vel
+                        labore eos voluptatum, debitis, aspernatur voluptate repellendus maxime vero doloribus deserunt
+                        tenetur? Enim, dolores?15
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
