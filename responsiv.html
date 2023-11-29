@@ -18,12 +18,14 @@
             width: 300px;
             margin-left: 10px;
             position: relative;
+            overflow: hidden;
         }
 
         .image img {
             width: 100%;
             height: 350px;
             object-fit: cover;
+
         }
 
         .contain {
@@ -41,8 +43,9 @@
 
         }
 
-        .item:hover .contain {
-            visibility: visible;
+        .item:hover img {
+
+            transform: scale(1.2);
         }
     </style>
 
